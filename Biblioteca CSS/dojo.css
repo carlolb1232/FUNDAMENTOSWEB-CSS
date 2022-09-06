@@ -1,0 +1,63 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Clase para crear botones que se ajusten a la cuarta parte de su contenedor */
+
+.btn{
+  width: 25%;
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(44,107,255);
+  border: 2px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* Estilos de columnas Flex-ibles */
+
+.row{
+  display: flex;
+}
+
+.col{
+  margin: 20px;
+  background-color: rgb(101,157,161);
+  text-align: center;
+  padding: 15px;
+}
+
+/* Nav var de Barra de navegación con flex */
+
+.nav{
+  padding: 10px 45px;
+  background-color: rgb(51,51,51);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Posicionar imagen descentrada */
+
+.profile-picture{
+  width: 100px;
+  height: auto;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+/* Padding agradable */
+
+.nice-padding{
+  padding: 10px 15px;
+}
